@@ -15,6 +15,8 @@ export interface GeneralContent {
   save: ContentValue
   close: ContentValue
   warningInfo: ContentValue
+  pageNotFound: ContentValue
+  goBack: ContentValue
 }
 export interface ListeningContent {
   placeholder: ContentValue

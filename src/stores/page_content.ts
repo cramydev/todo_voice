@@ -119,7 +119,15 @@ export const usePageContentStore = defineStore("page_content_store", () => {
     warningInfo: {
       en: "Voice recognition might not work properly depending on the browser. Please use Chrome preferably.",
       es: "El reconocimiento de voz puede no funcionar correctamente dependiendo del navegador. Por favor usa Chrome preferiblemente.",
-    }
+    },
+    pageNotFound: {
+      en: "Nope, it's not here!!",
+      es: 'Pues, por acá no está!!'
+    },
+    goBack: {
+      en: 'Go back',
+      es: 'Volver'
+    },
   }
   const toDoListContent: ToDoListContent = {
     noItems: {
