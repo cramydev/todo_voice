@@ -27,7 +27,7 @@ const { listItems } = storeToRefs(listItemsStore);
 
     <div class="rounded border-2 border-[#0D72B9] p-4">
       <section class="flex items-center justify-between mb-4">
-        <p class="text-2xl font-bold">TO-DO List</p>
+        <p class="text-2xl font-bold">To-Do List</p>
         <Languages />
       </section>
 

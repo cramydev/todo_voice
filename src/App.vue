@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
+import { RouterView } from "vue-router";
 
 // components
-import Footer from '@/components/Footer.vue'
+import Footer from "@/components/Footer.vue";
+
+console.log("import.meta", import.meta);
 </script>
 
 <template>
